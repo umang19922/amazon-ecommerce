@@ -1,0 +1,6 @@
+#This file has list of Test servers for our project
+
+sap-1023
+sap-1034
+sap-4456
+ddcaxq2321
