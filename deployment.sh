@@ -9,6 +9,6 @@ if [ $ENVIRONMENT = "Dev" ];then
 elif  [ $ENVIRONMENT = "UAT" ];then
 	sshpass -p "gamut" scp target/gamutkart.war gamut@172.17.0.3:/home/gamut/Distros/apache-tomcat-8.5.23/webapps
 	sshpass -p "gamut" ssh gamut@172.17.0.3 "JAVA_HOME=/home/gamut/Distros/jdk1.8.0_151" "/home/gamut/Distros/apache-tomcat-8.5.23/bin/startup.sh"
-echo "deployment has been done!"
+echo "deployment is completed!"
 fi
 
