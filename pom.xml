@@ -11,8 +11,8 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>Development</scope>
+			<version>4.15</version>
+			<scope>Production</scope>
 		</dependency>
 	
 		<dependency>
